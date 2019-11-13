@@ -2,4 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Yeon Sung', cursive;
+}
+
+#container>span {
+    color: white;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    animation-name: nice;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nice {
+    0% {background-color: cornflowerblue;}
+    25% {background-color: dodgerblue;}
+    50% {background-color: teal;}
+    75% {background-color: dodgerblue;}
+    100% {background-color: cornflowerblue;}
 }
